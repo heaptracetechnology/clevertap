@@ -13,6 +13,8 @@ class Handler:
 
     def __init__(self):
         #super().__init__()
+        os.environ["ACCOUNT_ID"] = "TEST-9RZ-86Z-K65Z"
+        os.environ["ACCOUNT_PASSCODE"] = "QOK-KID-GEKL"
         self.account_id = os.getenv('ACCOUNT_ID')
         self.passcode = os.getenv('ACCOUNT_PASSCODE')
 

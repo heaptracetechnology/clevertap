@@ -11,8 +11,8 @@ from time import sleep
 class Handler:
     app = Flask(__name__)
 
-    def __init__(self) -> None:
-        super().__init__()
+    def __init__(self):
+        #super().__init__()
         self.account_id = os.getenv('ACCOUNT_ID')
         self.passcode = os.getenv('ACCOUNT_PASSCODE')
 

@@ -1,5 +1,6 @@
 import requests
 import unittest
+import os
 
 os.environ["ACCOUNT_I"] = "TEST-9RZ-86Z-K65Z"
 os.environ["ACCOUNT_PASSCODE"] = "QOK-KID-GEKL"

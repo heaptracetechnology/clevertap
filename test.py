@@ -1,6 +1,9 @@
 import requests
 import unittest
-from app import Handler
+
+os.environ["ACCOUNT_I"] = "TEST-9RZ-86Z-K65Z"
+os.environ["ACCOUNT_PASSCODE"] = "QOK-KID-GEKL"
+
 
 class PushTestCase(unittest.TestCase):
    def test_push_request(self):

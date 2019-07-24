@@ -13,6 +13,7 @@ install:
 
 # Run the unit test
 script:
+  - python app.py
   - coverage run test.py
 
 # Push the results back to codecov

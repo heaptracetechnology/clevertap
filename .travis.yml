@@ -17,7 +17,7 @@ install:
 
 # Run the unit test
 script:
-  - poetry run pytest --cov=./
+  - poetry run pytest --cov=app
 
 # Push the results back to codecov
 after_success:

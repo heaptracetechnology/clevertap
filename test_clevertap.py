@@ -1,5 +1,3 @@
-# tests/test_blueprints/test_root.py
-
 from http import HTTPStatus
 
 def test_push_request_event_name(client):

@@ -13,11 +13,14 @@ python: 3.7
 # Install the codecov pip dependency
 install:
   - pip install -r requirements.txt
+  - pip install pytest==5.0.1
+  - pip install pytest-flask==0.15.0
+  - pip install pytest-cov==2.7.1
   - pip install poetry
 
 # Run the unit test
 script:
-  - poetry run pytest --cov=./
+  - poetry run pytest --cov=app
 
 # Push the results back to codecov
 after_success:

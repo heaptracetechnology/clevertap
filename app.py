@@ -128,7 +128,7 @@ class Handler:
     def _eventDetails(self, d):
         eventRes = requests.post(
             'https://api.clevertap.com/1/events.json?batch_size=50',
-            json=d,
+            json={"data":d},
             headers={
                 'X-CleverTap-Account-Id': self.account_id,
                 'X-CleverTap-Passcode': self.passcode,

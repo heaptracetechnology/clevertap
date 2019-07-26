@@ -13,7 +13,6 @@ python: 3.7
 # Install the codecov pip dependency
 install:
   - pip install poetry
-  - poetry add -D pytest pytest-flask
 
 # Run the unit test
 script:

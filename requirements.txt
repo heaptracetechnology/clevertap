@@ -2,3 +2,4 @@ requests2==2.16.0
 Flask==1.0.2
 pytest==5.0.1
 pytest-flask==0.15.0
+pytest-cov==2.7.1
